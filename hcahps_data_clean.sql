@@ -942,7 +942,7 @@ SELECT
     'region'
 UNION ALL
 SELECT * FROM hospital_geninfo_staging2
-INTO OUTFILE 'C:/Users/Daelin/Documents/Workspace/DataAnalyst_PortfolioPrep/Hospital/cleaned_data/Hospital_General_Info/hospital_geninfo_clean.csv' 
+INTO OUTFILE 'Hospital/cleaned_data/Hospital_General_Info/hospital_geninfo_clean.csv' 
 FIELDS ENCLOSED BY '"' 
 TERMINATED BY ',' 
 LINES TERMINATED BY '\r\n';
@@ -987,7 +987,7 @@ SELECT
     `year`
 FROM hcahps_combined
 WHERE hcahps_answer_percent IS NOT NULL
-INTO OUTFILE 'C:/Users/Daelin/Documents/Workspace/DataAnalyst_PortfolioPrep/Hospital/cleaned_data/Hospital_HCAHPS/hcahps_combined_clean.csv' 
+INTO OUTFILE 'Hospital/cleaned_data/Hospital_HCAHPS/hcahps_combined_clean.csv' 
 FIELDS ENCLOSED BY '"' 
 TERMINATED BY ',' 
 LINES TERMINATED BY '\r\n';
@@ -1028,7 +1028,7 @@ SELECT
     `year`
 FROM hcahps_combined
 WHERE patient_survey_star_rating IS NOT NULL
-INTO OUTFILE 'C:/Users/Daelin/Documents/Workspace/DataAnalyst_PortfolioPrep/Hospital/cleaned_data/Hospital_HCAHPS/hcahps_combined_ps_clean.csv' 
+INTO OUTFILE 'Hospital/cleaned_data/Hospital_HCAHPS/hcahps_combined_ps_clean.csv' 
 FIELDS ENCLOSED BY '"' 
 TERMINATED BY ',' 
 LINES TERMINATED BY '\r\n';
@@ -1069,7 +1069,7 @@ SELECT
     `year`
 FROM hcahps_combined
 WHERE hcahps_answer_percent IS NOT NULL
-INTO OUTFILE 'C:/Users/Daelin/Documents/Workspace/DataAnalyst_PortfolioPrep/Hospital/cleaned_data/Hospital_HCAHPS/hcahps_combined_pa_clean.csv' 
+INTO OUTFILE 'Hospital/cleaned_data/Hospital_HCAHPS/hcahps_combined_pa_clean.csv' 
 FIELDS ENCLOSED BY '"' 
 TERMINATED BY ',' 
 LINES TERMINATED BY '\r\n';
@@ -1110,7 +1110,7 @@ SELECT
     `year`
 FROM hcahps_combined
 WHERE hcahps_linear_mean IS NOT NULL
-INTO OUTFILE 'C:/Users/Daelin/Documents/Workspace/DataAnalyst_PortfolioPrep/Hospital/cleaned_data/Hospital_HCAHPS/hcahps_combined_lm_clean.csv' 
+INTO OUTFILE 'Hospital/cleaned_data/Hospital_HCAHPS/hcahps_combined_lm_clean.csv' 
 FIELDS ENCLOSED BY '"' 
 TERMINATED BY ',' 
 LINES TERMINATED BY '\r\n';
