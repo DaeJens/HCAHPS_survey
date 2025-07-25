@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS cms_hospital.hospital_geninfo
     TE_group_footnote VARCHAR(100)
 );
 
-LOAD DATA INFILE 'C:/Users/Daelin/Documents/Workspace/DataAnalyst_PortfolioPrep/Hospital/raw_data/Hospital_General_Information.csv'
+LOAD DATA INFILE 'Hospital/raw_data/Hospital_General_Information.csv'
 INTO TABLE hospital_geninfo
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS cms_hospital.hcahps_hospital_2024
     end_date VARCHAR(10)
 );
 
-LOAD DATA INFILE 'C:/Users/Daelin/Documents/Workspace/DataAnalyst_PortfolioPrep/Hospital/archived_data/hospitals_10_2024/HCAHPS-Hospital.csv'
+LOAD DATA INFILE 'Hospital/archived_data/hospitals_10_2024/HCAHPS-Hospital.csv'
 INTO TABLE hcahps_hospital_2024
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -111,7 +111,7 @@ CREATE TABLE IF NOT EXISTS cms_hospital.hcahps_hospital_2023
     end_date VARCHAR(10)
 );
 
-LOAD DATA INFILE 'C:/Users/Daelin/Documents/Workspace/DataAnalyst_PortfolioPrep/Hospital/archived_data/hospitals_11_2023/hospitals_11_2023/HCAHPS-Hospital.csv'
+LOAD DATA INFILE 'Hospital/archived_data/hospitals_11_2023/hospitals_11_2023/HCAHPS-Hospital.csv'
 INTO TABLE hcahps_hospital_2023
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -146,7 +146,7 @@ CREATE TABLE IF NOT EXISTS cms_hospital.hcahps_hospital_2022
     end_date VARCHAR(10)
 );
 
-LOAD DATA INFILE 'C:/Users/Daelin/Documents/Workspace/DataAnalyst_PortfolioPrep/Hospital/archived_data/hospitals_10_2022/hospitals_10_2022/HCAHPS-Hospital.csv'
+LOAD DATA INFILE 'Hospital/archived_data/hospitals_10_2022/hospitals_10_2022/HCAHPS-Hospital.csv'
 INTO TABLE hcahps_hospital_2022
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -181,7 +181,7 @@ CREATE TABLE IF NOT EXISTS cms_hospital.hcahps_hospital_2021
     end_date VARCHAR(10)
 );
 
-LOAD DATA INFILE 'C:/Users/Daelin/Documents/Workspace/DataAnalyst_PortfolioPrep/Hospital/archived_data/hospitals_10_2021/HCAHPS-Hospital.csv'
+LOAD DATA INFILE 'Hospital/archived_data/hospitals_10_2021/HCAHPS-Hospital.csv'
 INTO TABLE hcahps_hospital_2021
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
