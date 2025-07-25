@@ -5,4 +5,7 @@ The HCAHPS (Hospital Consumer Assessment of Healthcare Providers and Systems) su
   - 3 items that direct patients to relevant questions.
   - 5 items to adjust for the mix of patients across hospitals.
   - 2 items that support congressionally-mandated reports.
+
 Data used in this study can be found at the [CMS Data Catalog](https://data.cms.gov/provider-data/search?theme=Hospitals)
+
+### Objective
