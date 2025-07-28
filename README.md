@@ -18,4 +18,4 @@ The primary objective of this project is to provide a comprehensive analytical t
   - **Insight Generation**: uncovering specific areas for growth and improvement by pinpointing categories where a hospital significantly deviates from its peers or benchmarks.
 
 ### Results
-Tableau dashboard can be accessed via [Tableau Public]([https://public.tableau.com/views/HCAHPS_Hospital_Dashboard2/HospitalLevel?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/app/profile/daelin.jensen)
+Tableau dashboard can be accessed via [Tableau Public](https://public.tableau.com/views/HCAHPS_Hospital_Dashboard2/HospitalLevel?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/app/profile/daelin.jensen)
